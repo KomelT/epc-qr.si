@@ -2,16 +2,20 @@
   "name": "epc-qr.si",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build-ghpages": "npx @11ty/eleventy --input=./src/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-ghpages": "npx eleventy"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KomelT/epc-qr.si"
+  },
+  "author": "Tilen Kome <me@komelt.dev>",
+  "license": "GPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "postcss": "^8.4.49",
+    "postcss-minify": "^1.1.0"
   }
 }

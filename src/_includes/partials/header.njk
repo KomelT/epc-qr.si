@@ -1,0 +1,56 @@
+<header>
+  <div id="header-logo">
+    <h1><a href="/">epc-qr.si</a></h1>
+  </div>
+  <nav id="header-nav">
+    <ul>
+      <li></li>
+    </ul>
+  </nav>
+  <div id="header-right">
+  </div>
+</header>
+
+{% css %}
+  header {
+    background-color: #333333;
+    padding: 1rem;
+    color: white;
+    display: inline-grid;
+    width: 100vw;
+    grid-template-columns: 25% 50% 25%;
+  }
+
+  #header-logo a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+{% endcss %}
